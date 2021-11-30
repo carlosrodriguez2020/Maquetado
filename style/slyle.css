@@ -163,62 +163,123 @@ header .texto-header {
   width: 50px;
 }
 
-
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
+.imagen-port:hover .hover-galeria {
+  transform: scale(1);
 }
+/* what our clients think of us */
 
-.cards{
-  
+.cards {
   display: flex;
   max-width: 100%;
   height: auto;
-  
+  justify-content: center;
 }
 
-.card{
-   background-color: rgb(63, 4, 119);
-   color:#fff;
+.card {
+  background-color: rgb(63, 4, 119);
+  color: #fff;
   display: flex;
   width: 45%;
   justify-content: center;
   border-radius: 10px;
   margin: 0px 5px;
   height: 130px;
-  
 }
-/* .card > img{
-width: 30%;
-border-radius: 50%;
-padding: 5px;
-border: 2px solid #ffff;
-background-size:cover;
-} */
 
-.img-card-1{
+
+.img-card-1 {
   background-image: url(../img/w1.jpg);
 }
-.img-card-2{background-image: url(../img/w2.jpg);}
-.img-card-1,.img-card-2{
-  
-width: 50%;
-border-radius: 50%;
-margin: 10px;
-border: 3px solid #ffff;
-background-size:cover;
+.img-card-2 {
+  background-image: url(../img/w2.jpg);
+}
+.img-card-1,
+.img-card-2 {
+  width: 50%;
+  border-radius: 50%;
+  margin: 10px;
+  border: 3px solid #ffff;
+  background-size: cover;
+}
+
+.contenido-texto-card > h4 {
+  margin-bottom: 10px;
+}
+
+.contenido-texto-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+}
+
+/* our team */
+
+.about-services{
+  background: #f2f2f2;
+  padding-bottom: 30px;
 }
 
 
-.contenido-texto-card > h4{
-  margin-bottom: 10px ;
-  
+.servicio-cont{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.contenido-texto-card{
- display: flex;
- flex-direction: column;
- justify-content: center;
- padding: 5px;
- text-align: center;
- 
+.servicio-ind{
+  width: 28%;
+  text-align: center;
+}
+
+.servicio-ind img{
+  width: 90%;
+}
+
+.servicio-ind h3{
+  margin: 10px 0;
+}
+
+.servicio-ind p{
+  font-weight: 300;
+  text-align: justify;
+}
+
+footer{
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+  text-align: center;
+}
+
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #af20d3;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
 }
